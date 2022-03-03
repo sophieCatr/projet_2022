@@ -1,0 +1,39 @@
+body{
+    background-image:url(../images/craventure-media-bkyIc6uJIdU-unsplash.jpg);
+    height:100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:1;
+    overflow-y: hidden;
+
+}
+
+.center{
+    position: absolute; /* postulat de départ */
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+    
+}
+.center-button{
+    position: absolute; /* postulat de départ */
+    top: 60%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */  
+}
+
+img{
+    width:50vw;
+    height:50vh;
+}
+/* body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100vh;
+    background-image: url(../images/craventure-media-bkyIc6uJIdU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h1{
+    color: #fff;
+} */
